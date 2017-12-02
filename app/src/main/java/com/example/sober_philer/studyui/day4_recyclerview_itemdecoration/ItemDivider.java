@@ -6,6 +6,7 @@ import android.graphics.Canvas;
 import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.View;
 
 /**
@@ -57,6 +58,7 @@ public class ItemDivider extends RecyclerView.ItemDecoration {
     @Override
     public void getItemOffsets(Rect outRect, int itemPosition, RecyclerView parent) {
         super.getItemOffsets(outRect, itemPosition, parent);
+        Log.i("philer", parent.getChildCount()+"");
         int left = 0;
         if(needLeft(itemPosition)){
             left += mDivider.getIntrinsicWidth();
@@ -68,7 +70,6 @@ public class ItemDivider extends RecyclerView.ItemDecoration {
         int right = mDivider.getIntrinsicWidth();
         int bottom = mDivider.getIntrinsicHeight();
         outRect.set(left, top, right, bottom);
-
     }
 
     private boolean needTop(int position) {

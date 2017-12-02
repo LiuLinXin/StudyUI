@@ -11,6 +11,9 @@ import android.widget.TextView;
 
 import com.example.sober_philer.studyui.R;
 
+/**
+ * 使用itemdecoration添加分割线
+ */
 public class Day4ActivityRecyclerViewDivider extends AppCompatActivity {
 
     private RecyclerView rvContent;

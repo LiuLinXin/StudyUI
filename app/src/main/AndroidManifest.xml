@@ -18,6 +18,8 @@
         </activity>
         <activity android:name=".day4_recyclerview_itemdecoration.Day4ActivityRecyclerViewDivider">
         </activity>
+        <activity android:name=".day5_recyclerview_headerfooter.ActivityDay5">
+        </activity>
     </application>
 
 </manifest>

@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.sober_philer.studyui.day4_recyclerview_itemdecoration.Day4ActivityRecyclerViewDivider;
+import com.example.sober_philer.studyui.day5_recyclerview_headerfooter.ActivityDay5;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -14,6 +15,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         findViewById(R.id.day4).setOnClickListener(this);
+        findViewById(R.id.day5).setOnClickListener(this);
     }
 
     @Override
@@ -22,6 +24,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if(id == R.id.day4){
             Intent i = new Intent(this, Day4ActivityRecyclerViewDivider.class);
             startActivity(i);
+        }else if(id == R.id.day5){
+            startActivity(new Intent(this, ActivityDay5.class));
         }
     }
 }
