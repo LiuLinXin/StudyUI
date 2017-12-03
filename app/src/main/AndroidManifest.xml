@@ -20,6 +20,8 @@
         </activity>
         <activity android:name=".day5_recyclerview_headerfooter.ActivityDay5">
         </activity>
+        <activity android:name=".day6_recyclerview_animation.ActivityDay6RecyclerViewAnimation">
+        </activity>
     </application>
 
 </manifest>

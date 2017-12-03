@@ -7,6 +7,7 @@ import android.view.View;
 
 import com.example.sober_philer.studyui.day4_recyclerview_itemdecoration.Day4ActivityRecyclerViewDivider;
 import com.example.sober_philer.studyui.day5_recyclerview_headerfooter.ActivityDay5;
+import com.example.sober_philer.studyui.day6_recyclerview_animation.ActivityDay6RecyclerViewAnimation;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         findViewById(R.id.day4).setOnClickListener(this);
         findViewById(R.id.day5).setOnClickListener(this);
+        findViewById(R.id.day6).setOnClickListener(this);
     }
 
     @Override
@@ -26,6 +28,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(i);
         }else if(id == R.id.day5){
             startActivity(new Intent(this, ActivityDay5.class));
+        }else if(id == R.id.day6){
+            startActivity(new Intent(this, ActivityDay6RecyclerViewAnimation.class));
         }
     }
 }
