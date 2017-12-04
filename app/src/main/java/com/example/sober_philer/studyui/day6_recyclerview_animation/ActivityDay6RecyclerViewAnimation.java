@@ -16,6 +16,7 @@ import android.widget.TextView;
 import com.example.sober_philer.studyui.R;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 /**
@@ -23,11 +24,12 @@ import java.util.List;
  * Description: recyclerview滑动交换与滑动删除
  */
 
-public class ActivityDay6RecyclerViewAnimation extends AppCompatActivity {
+public class ActivityDay6RecyclerViewAnimation extends AppCompatActivity implements AnimationTouchHelper.MoveCallBack {
 
     private RecyclerView rvContent;
     private List<String> datas = new ArrayList<>();
     private ItemTouchHelper itemTouchHelper;
+    private InnerAdapter innerAdapter;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -47,10 +49,27 @@ public class ActivityDay6RecyclerViewAnimation extends AppCompatActivity {
         for (int i=0;i<50;i++){
             datas.add("data : "+i);
         }
-        AnimationTouchHelper animationTouchHelper = new AnimationTouchHelper();
+        innerAdapter = new InnerAdapter();
+        AnimationTouchHelper animationTouchHelper = new AnimationTouchHelper(this);
         itemTouchHelper = new ItemTouchHelper(animationTouchHelper);
         itemTouchHelper.attachToRecyclerView(rvContent);
-        rvContent.setAdapter(new InnerAdapter());
+        rvContent.setAdapter(innerAdapter);
+    }
+
+    @Override
+    public void onMove(RecyclerView.ViewHolder viewHolder, RecyclerView.ViewHolder target) {
+        Collections.swap(datas, viewHolder.getAdapterPosition(), target.getAdapterPosition());
+        innerAdapter.notifyItemMoved(viewHolder.getAdapterPosition(), target.getAdapterPosition());
+//        View itemView = viewHolder.itemView;
+//        itemView.setAlpha(1);
+//        itemView.setScaleY(1);
+//        itemView.setScaleX(1);
+    }
+
+    @Override
+    public void onSwiped(RecyclerView.ViewHolder viewHolder) {
+        datas.remove(viewHolder.getAdapterPosition());
+        innerAdapter.notifyItemRemoved(viewHolder.getAdapterPosition());
     }
 
     private class InnerAdapter extends RecyclerView.Adapter<InnerAdapter.InnerHolder> implements View.OnClickListener, View.OnTouchListener {
@@ -65,6 +84,14 @@ public class ActivityDay6RecyclerViewAnimation extends AppCompatActivity {
             holder.tvText.setText(datas.get(position));
             holder.ivMove.setTag(holder);
             holder.ivMove.setOnTouchListener(this);
+            int adapterPosition = holder.getAdapterPosition();
+            int layoutPosition = holder.getLayoutPosition();
+            int oldPosition = holder.getOldPosition();
+            int position1 = holder.getPosition();
+//            Log.i("philer", position +" : adapterPosition-"+adapterPosition+
+//            "  layoutPosition-"+layoutPosition+
+//            "  oldPosition-"+oldPosition+
+//            "  position1"+position1);
         }
 
         @Override
