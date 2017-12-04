@@ -48,7 +48,7 @@ public class Day4ActivityRecyclerViewDivider extends AppCompatActivity {
             TextView tvText;
             public InnerHolder(View itemView) {
                 super(itemView);
-                tvText = itemView.findViewById(android.R.id.text1);
+                tvText = (TextView) itemView.findViewById(android.R.id.text1);
             }
         }
     }

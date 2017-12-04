@@ -22,6 +22,11 @@
         </activity>
         <activity android:name=".day6_recyclerview_animation.ActivityDay6RecyclerViewAnimation">
         </activity>
+        <activity android:name=".day7_drawerlayout.Day7_activity"/>
+        <activity
+            android:name=".day7_drawerlayout.GoogleDrawerActivity"
+            >
+        </activity>
     </application>
 
 </manifest>

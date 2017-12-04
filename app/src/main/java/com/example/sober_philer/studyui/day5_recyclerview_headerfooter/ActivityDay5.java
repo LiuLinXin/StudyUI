@@ -79,7 +79,7 @@ public class ActivityDay5 extends AppCompatActivity {
             private TextView tvTitle;
             public InnerHolder(View itemView) {
                 super(itemView);
-                tvTitle = itemView.findViewById(R.id.tvText);
+                tvTitle = (TextView) itemView.findViewById(R.id.tvText);
             }
         }
     }

@@ -94,8 +94,8 @@ public class ActivityDay6RecyclerViewAnimation extends AppCompatActivity {
             private ImageView ivMove;
             public InnerHolder(View itemView) {
                 super(itemView);
-                tvText = itemView.findViewById(R.id.tvText);
-                ivMove = itemView.findViewById(R.id.ivMove);
+                tvText = (TextView) itemView.findViewById(R.id.tvText);
+                ivMove = (ImageView) itemView.findViewById(R.id.ivMove);
             }
         }
     }
