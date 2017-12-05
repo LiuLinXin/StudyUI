@@ -37,6 +37,7 @@ public class ActivityDay6RecyclerViewAnimation extends AppCompatActivity impleme
         setContentView(R.layout.day6_activity);
         initView();
         initData();
+
     }
 
     private void initView(){
