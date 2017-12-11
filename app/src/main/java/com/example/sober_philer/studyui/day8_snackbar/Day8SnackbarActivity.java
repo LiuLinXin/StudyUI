@@ -44,6 +44,7 @@ public class Day8SnackbarActivity extends AppCompatActivity implements View.OnCl
             Toast.makeText(this, "toast", Toast.LENGTH_SHORT).show();
         }else if(id == R.id.tvSnackbar){
             Snackbar.make(tvSnackbar, "xixixi", Snackbar.LENGTH_SHORT).show();
+//            new PhilerSnackBar(tvSnackbar, "嘻嘻嘻嘻嘻嘻").show();
         }else if(id == R.id.tvChangeNavigation){
             boolean drawerOpen = drawerLayout.isDrawerOpen(navigation);
             if(drawerOpen){
