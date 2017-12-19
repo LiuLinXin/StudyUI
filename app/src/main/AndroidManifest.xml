@@ -26,6 +26,7 @@
         <activity android:name=".day7_drawerlayout.GoogleDrawerActivity"/>
         <activity android:name=".day8_snackbar.Day8SnackbarActivity"/>
         <activity android:name=".day9_textinputlayout.Day9_textinputlayout"/>
+        <activity android:name=".day10_toolbar.Day10_toolbarActivity"/>
     </application>
 
 </manifest>

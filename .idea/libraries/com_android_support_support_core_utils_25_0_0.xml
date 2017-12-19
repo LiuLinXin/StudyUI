@@ -1,15 +1,15 @@
 <component name="libraryTable">
   <library name="com.android.support:support-core-utils-25.0.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/f75a8599fefbd05ac4715b86feb27d30/jars/libs/internal_impl-25.0.0.jar!/" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/f75a8599fefbd05ac4715b86feb27d30/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/f75a8599fefbd05ac4715b86feb27d30/res" />
+      <root url="jar://$USER_HOME$/gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/d05a30860b589c3c2e111869ea2bda40/jars/libs/internal_impl-25.0.0.jar!/" />
+      <root url="file://$USER_HOME$/gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/d05a30860b589c3c2e111869ea2bda40/res" />
+      <root url="jar://$USER_HOME$/gradle/caches/transforms-1/files-1.1/support-core-utils-25.0.0.aar/d05a30860b589c3c2e111869ea2bda40/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../studio2.2/sdk/extras/android/m2repository/com/android/support/support-core-utils/25.0.0/support-core-utils-25.0.0-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-core-utils/25.0.0/support-core-utils-25.0.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../studio2.2/sdk/extras/android/m2repository/com/android/support/support-core-utils/25.0.0/support-core-utils-25.0.0-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/support/support-core-utils/25.0.0/support-core-utils-25.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>
