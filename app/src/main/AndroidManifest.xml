@@ -27,6 +27,7 @@
         <activity android:name=".day8_snackbar.Day8SnackbarActivity"/>
         <activity android:name=".day9_textinputlayout.Day9_textinputlayout"/>
         <activity android:name=".day10_toolbar.Day10_toolbarActivity"/>
+        <activity android:name=".day11_palette.Day11ActivityPalette"/>
     </application>
 
 </manifest>

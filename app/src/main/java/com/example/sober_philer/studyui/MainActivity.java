@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import com.example.sober_philer.studyui.day10_toolbar.Day10_toolbarActivity;
+import com.example.sober_philer.studyui.day11_palette.Day11ActivityPalette;
 import com.example.sober_philer.studyui.day4_recyclerview_itemdecoration.Day4ActivityRecyclerViewDivider;
 import com.example.sober_philer.studyui.day5_recyclerview_headerfooter.ActivityDay5;
 import com.example.sober_philer.studyui.day6_recyclerview_animation.ActivityDay6RecyclerViewAnimation;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.day8).setOnClickListener(this);
         findViewById(R.id.day9).setOnClickListener(this);
         findViewById(R.id.day10).setOnClickListener(this);
+        findViewById(R.id.day11).setOnClickListener(this);
     }
 
     @Override
@@ -46,6 +48,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(this, Day9_textinputlayout.class));
         }else if(id == R.id.day10){
             startActivity(new Intent(this, Day10_toolbarActivity.class));
+        }else if(id == R.id.day11){
+            startActivity(new Intent(this, Day11ActivityPalette.class));
         }
     }
 }

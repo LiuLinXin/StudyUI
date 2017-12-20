@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.example.sober_philer.studyui.day11_palette.PhilerScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:paddingTop="?attr/actionBarSize"
+        android:clipToPadding="false"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <android.support.v4.view.ViewPager
+                android:id="@+id/vpContent"
+                android:paddingRight="50dp"
+                android:clipChildren="false"
+                android:clipToPadding="false"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+            <android.support.v7.widget.AppCompatImageView
+                android:id="@+id/ivIcon"
+                android:src="@mipmap/back"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:layout_height="300dp" />
+
+            <View
+                android:id="@+id/idView"
+                android:layout_alignParentBottom="true"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+            </RelativeLayout>
+            <Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="Button2"
+                android:layout_width="match_parent"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" /><Button
+                android:text="Button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </android.support.v7.widget.LinearLayoutCompat>
+    </com.example.sober_philer.studyui.day11_palette.PhilerScrollView>
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="标题"
+        android:background="?attr/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"/>
+
+</RelativeLayout>
