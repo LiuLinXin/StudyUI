@@ -11,7 +11,7 @@ import com.example.sober_philer.studyui.R;
 
 /**
  * Created by sober_philer on 2017/12/9.
- * description:
+ * description:textinputlayout
  */
 
 public class Day9_textinputlayout extends AppCompatActivity implements TextWatcher {
