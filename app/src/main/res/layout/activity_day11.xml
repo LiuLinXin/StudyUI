@@ -39,7 +39,8 @@
 
             </RelativeLayout>
             <Button
-                android:text="Button1"
+                android:text="网格"
+                android:id="@+id/buNext"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
             <Button
