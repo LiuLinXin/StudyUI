@@ -30,6 +30,7 @@
         <activity android:name=".day11_palette.Day11ActivityPalette"/>
         <activity android:name=".day11_palette.Day11ActivityGridPalette"/>
         <activity android:name=".day12_tablayout.Day12ActivityTablayout"/>
+        <activity android:name=".day13_trans_h.Day13ActivityTrans"/>
     </application>
 
 </manifest>
