@@ -28,6 +28,9 @@
         <activity android:name=".day9_textinputlayout.Day9_textinputlayout"/>
         <activity android:name=".day10_toolbar.Day10_toolbarActivity"/>
         <activity android:name=".day11_palette.Day11ActivityPalette"/>
+        <activity android:name=".day11_palette.Day11ActivityGridPalette"/>
+        <activity android:name=".day12_tablayout.Day12ActivityTablayout"/>
+        <activity android:name=".day13_trans_h.Day13ActivityTrans"/>
     </application>
 
 </manifest>

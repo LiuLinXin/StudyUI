@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/StudyUI.iml" filepath="$PROJECT_DIR$/StudyUI.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/StudyUI.iml" filepath="$PROJECT_DIR$/.idea/StudyUI.iml" />
+      <module fileurl="file://F:\android_studio_work\StudyUI\.idea\StudyUI.iml" filepath="F:\android_studio_work\StudyUI\.idea\StudyUI.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
