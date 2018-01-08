@@ -1,134 +1,146 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView android:layout_height="match_parent"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    xmlns:android="http://schemas.android.com/apk/res/android" >
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:orientation="vertical"
-    android:layout_height="match_parent"
-    tools:context="com.example.sober_philer.studyui.MainActivity">
+    android:layout_height="match_parent">
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/day4"
-        android:text="day4_recyclerview_divider"
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:background="?android:attr/selectableItemBackground"
-        android:layout_height="44dp"/>
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.sober_philer.studyui.MainActivity">
 
-    <View
-        android:background="#ccc"
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day4"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="day4_recyclerview_divider" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/day5"
-        android:text="day5_recyclerview_header"
-        android:layout_width="match_parent"
-        android:background="?android:attr/selectableItemBackground"
-        android:layout_height="44dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
 
-    <View
-        android:background="#ccc"
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day5"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="day5_recyclerview_header" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/day6"
-        android:text="day6_recyclerview_animation"
-        android:layout_width="match_parent"
-        android:background="?android:attr/selectableItemBackground"
-        android:layout_height="44dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
 
-    <View
-        android:background="#ccc"
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day6"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="day6_recyclerview_animation" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/day7"
-        android:text="day7_drawerlayout"
-        android:layout_width="match_parent"
-        android:background="?android:attr/selectableItemBackground"
-        android:layout_height="44dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
 
-    <View
-        android:background="#ccc"
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day7"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="day7_drawerlayout" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/day8"
-        android:text="day8_snackbar"
-        android:layout_width="match_parent"
-        android:background="?android:attr/selectableItemBackground"
-        android:layout_height="44dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
 
-    <View
-        android:background="#ccc"
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day8"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="day8_snackbar" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/day9"
-        android:text="day9_textinputlayout"
-        android:layout_width="match_parent"
-        android:background="?android:attr/selectableItemBackground"
-        android:layout_height="44dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
 
-    <View
-        android:background="#ccc"
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day9"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="day9_textinputlayout" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/day10"
-        android:text="day10_toolbar"
-        android:layout_width="match_parent"
-        android:background="?android:attr/selectableItemBackground"
-        android:layout_height="44dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
 
-    <View
-        android:background="#ccc"
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day10"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="day10_toolbar" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/day11"
-        android:text="day11_palette"
-        android:layout_width="match_parent"
-        android:background="?android:attr/selectableItemBackground"
-        android:layout_height="44dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
 
-    <View
-        android:background="#ccc"
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day11"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="day11_palette" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/day12"
-        android:text="day12_tablayout"
-        android:layout_width="match_parent"
-        android:background="?android:attr/selectableItemBackground"
-        android:layout_height="44dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
 
-    <View
-        android:background="#ccc"
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"/>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day12"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="day12_tablayout" />
 
-    <android.support.v7.widget.AppCompatButton
-        android:id="@+id/day13"
-        android:text="day13_trans"
-        android:layout_width="match_parent"
-        android:background="?android:attr/selectableItemBackground"
-        android:layout_height="44dp"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
 
-    <View
-        android:background="#ccc"
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"/>
-</LinearLayout>
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day13"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="day13_trans" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day14"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="day14_trans_navigation" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
+    </LinearLayout>
 </ScrollView>

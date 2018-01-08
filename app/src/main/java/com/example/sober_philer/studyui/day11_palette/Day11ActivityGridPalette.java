@@ -51,7 +51,7 @@ public class Day11ActivityGridPalette extends Activity {
         public void onBindViewHolder(final InnerHolder holder, int position) {
             int id = getResources().getIdentifier("im" + (position + 1), "mipmap", getPackageName());
             Bitmap bitmap = BitmapFactory.decodeResource(getResources(), id);
-            holder.ivIcon.setImageBitmap(bitmap);
+            holder.ivIcon.setImageResource(id);
             Palette.from(bitmap).generate(new Palette.PaletteAsyncListener() {
                 @Override
                 public void onGenerated(Palette palette) {
