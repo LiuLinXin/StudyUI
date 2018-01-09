@@ -44,6 +44,5 @@ public class MyTextViewTrans extends TextView {
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
-        canvas.drawText("philer",left, );
     }
 }

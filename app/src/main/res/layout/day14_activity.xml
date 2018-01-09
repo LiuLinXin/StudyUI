@@ -5,16 +5,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical">
 
-    <android.support.v7.widget.Toolbar
-        android:id="@+id/toolbar"
-        android:layout_width="match_parent"
-        android:layout_height="?attr/actionBarSize"
-        android:background="?attr/colorPrimary"
-        app:title="网易新闻"
-        app:titleTextColor="#ff0"
-        app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"
-        >
-    </android.support.v7.widget.Toolbar>
+    <!--<android.support.v7.widget.Toolbar-->
+        <!--android:id="@+id/toolbar"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="?attr/actionBarSize"-->
+        <!--android:background="?attr/colorPrimary"-->
+        <!--app:title="网易新闻"-->
+        <!--app:titleTextColor="#ff0"-->
+        <!--app:popupTheme="@style/ThemeOverlay.AppCompat.Dark"-->
+        <!--&gt;-->
+    <!--</android.support.v7.widget.Toolbar>-->
 
 
     <ScrollView
