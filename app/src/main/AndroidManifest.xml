@@ -33,6 +33,7 @@
         <activity android:name=".day13_trans_h.Day13ActivityTrans"/>
         <activity android:name=".day14_trans_navigationbar.Day14Activity"/>
         <activity android:name=".day15_cardview_floatingactionbar.Day15Activity"/>
+        <activity android:name=".day16_fab_hide_show.Day16_fabhideshow"/>
     </application>
 
 </manifest>
