@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    app:layout_collapseMode="pin"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <com.example.sober_philer.studyui.day16_fab_hide_show.MyLoadingView
-        android:layout_width="match_parent"
-        android:background="#cc0"
-        android:layout_height="match_parent"/>
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/rvContent"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
 
-</RelativeLayout>
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/ivIcon"
+        android:src="@mipmap/ic_launcher_round"
+        android:background="@drawable/day16_circleback"
+        android:layout_width="48dp"
+        app:layout_behavior="com.example.sober_philer.studyui.day16_fab_hide_show.BehaviorFab"
+        android:layout_margin="16dp"
+        android:layout_gravity="right|bottom"
+        android:layout_height="48dp"/>
+
+</android.support.design.widget.CoordinatorLayout>
