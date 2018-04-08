@@ -35,11 +35,7 @@
         <activity android:name=".day15_cardview_floatingactionbar.Day15Activity"/>
         <activity android:name=".day16_fab_hide_show.Day16_fabhideshow"/>
         <activity android:name=".day18_coordinatorlayout.ActivityDay18"/>
-        <activity
-            android:name=".day18_coordinatorlayout.FFFF"
-            android:label="@string/title_activity_ffff"
-            android:theme="@style/AppTheme">
-        </activity>
+        <activity android:name=".day18_coordinatorlayout.activityapageone.ActivityDay18PageOne"/>
     </application>
 
 </manifest>
