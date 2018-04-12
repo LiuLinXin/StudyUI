@@ -1,38 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/coordinator"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-    
+    android:layout_height="match_parent">
+
     <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
         android:layout_width="match_parent"
-        android:layout_height="200dp">
+        android:layout_height="200dp"
+        android:minHeight="150dp">
 
         <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/collapsing_toolbar"
             android:layout_width="match_parent"
-            app:contentScrim="@color/colorPrimaryDark"
+            android:layout_height="match_parent"
             app:collapsedTitleGravity="center"
-            app:statusBarScrim="@color/colorPrimary"
+            app:contentScrim="@color/colorPrimaryDark"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
-            android:minHeight="?attr/actionBarSize"
-            android:layout_height="match_parent">
+            app:statusBarScrim="@color/colorPrimary">
 
             <ImageView
-                android:text="salkfjaslfjlsfad"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 android:gravity="center"
                 android:src="@mipmap/im7"
-                android:layout_width="match_parent"
+                android:text="salkfjaslfjlsfad"
                 app:layout_collapseMode="parallax"
-                app:layout_collapseParallaxMultiplier="0.1"
-                android:layout_height="match_parent"/>
+                app:layout_collapseParallaxMultiplier="0.1" />
 
             <android.support.v7.widget.Toolbar
-                app:logo="@mipmap/ic_launcher"
-                app:layout_collapseMode="none"
-                app:collapseIcon="@mipmap/ic_launcher"
+                android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:background="?attr/selectableItemBackground"
+                app:collapseIcon="@mipmap/ic_launcher"
+                app:layout_collapseMode="pin"
+                app:logo="@mipmap/ic_launcher"
                 app:title="title" />
 
         </android.support.design.widget.CollapsingToolbarLayout>
@@ -41,37 +45,40 @@
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
-        app:layout_behavior="@string/appbar_scrolling_view_behavior"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
         <LinearLayout
-            android:orientation="vertical"
-            android:gravity="center_horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <ImageView
-                android:scaleType="centerCrop"
-                android:src="@mipmap/im1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
 
             <ImageView
-                android:scaleType="centerCrop"
-                android:src="@mipmap/im2"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/im1" />
 
             <ImageView
-                android:scaleType="centerCrop"
-                android:src="@mipmap/im3"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/im2" />
 
             <ImageView
-                android:scaleType="centerCrop"
-                android:src="@mipmap/im4"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/im3" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/im4" />
         </LinearLayout>
     </android.support.v4.widget.NestedScrollView>
+
 
 </android.support.design.widget.CoordinatorLayout>

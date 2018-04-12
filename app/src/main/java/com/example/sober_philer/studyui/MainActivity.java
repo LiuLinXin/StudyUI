@@ -14,6 +14,7 @@ import com.example.sober_philer.studyui.day15_cardview_floatingactionbar.Day15Ac
 import com.example.sober_philer.studyui.day16_fab_hide_show.Day16_fabhideshow;
 import com.example.sober_philer.studyui.day18_coordinatorlayout.activityapageone.ActivityDay18PageOne;
 import com.example.sober_philer.studyui.day18_coordinatorlayout.activitybpagetow.ActivityPageTow;
+import com.example.sober_philer.studyui.day19_behavior.ActivityDay19;
 import com.example.sober_philer.studyui.day4_recyclerview_itemdecoration.Day4ActivityRecyclerViewDivider;
 import com.example.sober_philer.studyui.day5_recyclerview_headerfooter.ActivityDay5;
 import com.example.sober_philer.studyui.day6_recyclerview_animation.ActivityDay6RecyclerViewAnimation;
@@ -41,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.day15).setOnClickListener(this);
         findViewById(R.id.day16).setOnClickListener(this);
         findViewById(R.id.day18).setOnClickListener(this);
+        findViewById(R.id.day19).setOnClickListener(this);
     }
 
     @Override
@@ -74,8 +76,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else if(id == R.id.day16){
             startActivity(new Intent(this, Day16_fabhideshow.class));
         }else if(id == R.id.day18){
-            startActivity(new Intent(this, ActivityDay18PageOne.class));
-//            startActivity(new Intent(this, ActivityPageTow.class));
+//            startActivity(new Intent(this, ActivityDay18PageOne.class));
+            startActivity(new Intent(this, ActivityPageTow.class));
+        }else if(id == R.id.day19){
+//            startActivity(new Intent(this, ActivityDay18PageOne.class));
+            startActivity(new Intent(this, ActivityDay19.class));
         }
     }
 }
