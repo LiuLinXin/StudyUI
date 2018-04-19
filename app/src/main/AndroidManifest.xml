@@ -37,6 +37,8 @@
         <activity android:name=".day18_coordinatorlayout.activityapageone.ActivityDay18PageOne"/>
         <activity android:name=".day18_coordinatorlayout.activitybpagetow.ActivityPageTow"/>
         <activity android:name=".day19_behavior.ActivityDay19"/>
+        <activity android:name=".day19_behavior.behavior_scroll.ActivityDay19Scroll"/>
+        <activity android:name=".day20_propertyanimotion.Day20Activity"/>
     </application>
 
 </manifest>

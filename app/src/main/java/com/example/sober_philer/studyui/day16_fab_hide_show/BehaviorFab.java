@@ -31,6 +31,7 @@ public class BehaviorFab extends FloatingActionButton.Behavior {
 
         boolean b = axes == ViewCompat.SCROLL_AXIS_VERTICAL || super.onStartNestedScroll(coordinatorLayout, child, directTargetChild, target, axes, type);
         return b;
+//        return super.onStartNestedScroll(coordinatorLayout, child, directTargetChild, target, axes, type);
     }
 
     @Override
