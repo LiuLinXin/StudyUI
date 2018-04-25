@@ -39,6 +39,9 @@
         <activity android:name=".day19_behavior.ActivityDay19"/>
         <activity android:name=".day19_behavior.behavior_scroll.ActivityDay19Scroll"/>
         <activity android:name=".day20_propertyanimotion.Day20Activity"/>
+        <activity android:name=".day21_animator.Day21Activity"/>
+        <activity android:name=".day21_animator.Day21MatieralDesign"/>
+        <activity android:name=".day21_animator.Day21MatieralDesignTow"/>
     </application>
 
 </manifest>
