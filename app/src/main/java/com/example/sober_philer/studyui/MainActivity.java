@@ -16,6 +16,10 @@ import com.example.sober_philer.studyui.day18_coordinatorlayout.activitybpagetow
 import com.example.sober_philer.studyui.day19_behavior.behavior_scroll.ActivityDay19Scroll;
 import com.example.sober_philer.studyui.day20_propertyanimotion.Day20Activity;
 import com.example.sober_philer.studyui.day21_animator.Day21MatieralDesign;
+import com.example.sober_philer.studyui.day23_svg.Day23Activity;
+import com.example.sober_philer.studyui.day24_animfram.Day24ActivityAnimFram;
+import com.example.sober_philer.studyui.day26_touch.Day26ActivityViewOntouch;
+import com.example.sober_philer.studyui.day28_use_touch.Day28Activity;
 import com.example.sober_philer.studyui.day4_recyclerview_itemdecoration.Day4ActivityRecyclerViewDivider;
 import com.example.sober_philer.studyui.day5_recyclerview_headerfooter.ActivityDay5;
 import com.example.sober_philer.studyui.day6_recyclerview_animation.ActivityDay6RecyclerViewAnimation;
@@ -46,6 +50,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.day19).setOnClickListener(this);
         findViewById(R.id.day20).setOnClickListener(this);
         findViewById(R.id.day21).setOnClickListener(this);
+        findViewById(R.id.day23).setOnClickListener(this);
+        findViewById(R.id.day24).setOnClickListener(this);
+        findViewById(R.id.day26).setOnClickListener(this);
+        findViewById(R.id.day28).setOnClickListener(this);
     }
 
     @Override
@@ -91,6 +99,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(this, Day20Activity.class));
         }else if(id == R.id.day21){
             startActivity(new Intent(this, Day21MatieralDesign.class));
+        }else if(id == R.id.day23){
+            startActivity(new Intent(this, Day23Activity.class));
+        }else if(id == R.id.day24){
+            startActivity(new Intent(this, Day24ActivityAnimFram.class));
+        }else if(id == R.id.day26){
+            startActivity(new Intent(this, Day26ActivityViewOntouch.class));
+        }else if(id == R.id.day28){
+            startActivity(new Intent(this, Day28Activity.class));
         }
     }
 }

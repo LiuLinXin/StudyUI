@@ -5,9 +5,10 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.annotation.RequiresApi;
 import android.support.v4.app.ActivityOptionsCompat;
-import android.support.v4.util.Pair;
 import android.support.v7.app.AppCompatActivity;
+import android.transition.Slide;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.animation.AccelerateInterpolator;
@@ -34,6 +35,7 @@ public class Day21MatieralDesign extends AppCompatActivity implements View.OnCli
         ivCircleShow.setOnClickListener(this);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public void onClick(View v) {
         int id = v.getId();
@@ -49,9 +51,18 @@ public class Day21MatieralDesign extends AppCompatActivity implements View.OnCli
 //            overridePendingTransition(android.R.anim.fade_in, android.R.anim.slide_out_right);
 
 
-            Pair<View, String> img = Pair.create(ivCircleShow, "img");
-            Pair<View, String> text = Pair.create(buTrans, "text");
-            ActivityOptionsCompat optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(this, text, img);
+            //共享元素
+//            Pair<View, String> img = Pair.create(ivCircleShow, "img");
+//            Pair<View, String> text = Pair.create(buTrans, "text");
+//            ActivityOptionsCompat optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(this, text, img);
+//            startActivity(new Intent(this, Day21MatieralDesignTow.class), optionsCompat.toBundle());
+
+            //转场动画
+            Slide slide = new Slide();
+            slide.setDuration(1000);
+            getWindow().setExitTransition(slide);
+            getWindow().setEnterTransition(slide);
+            ActivityOptionsCompat optionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(this);
             startActivity(new Intent(this, Day21MatieralDesignTow.class), optionsCompat.toBundle());
         }
     }

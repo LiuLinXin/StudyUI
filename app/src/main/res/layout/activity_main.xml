@@ -214,5 +214,53 @@
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
             android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day23"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="day23_svg" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day24"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="day24_animfram" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day26"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="day26_touch1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day28"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="day26_touch1" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
     </LinearLayout>
 </ScrollView>

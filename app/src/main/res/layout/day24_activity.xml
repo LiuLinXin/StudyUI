@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.sober_philer.studyui.day24_animfram.ViewFramScroll
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.example.sober_philer.studyui.day24_animfram.ViewFramContent
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvText"
+            android:layout_width="match_parent"
+            android:layout_height="600dp"
+            android:gravity="center"
+            android:text="jslfkjlsadfjlsdfjlsjfsldjf"
+            android:textColor="#000"
+            android:textSize="20sp"/>
+
+        <View
+            android:background="#f0f"
+            app:alphaAnim="true"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <ImageView
+            app:scalAnim="true"
+            android:src="@mipmap/im3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <View
+            android:background="#ff0"
+            app:alphaAnim="true"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <ImageView
+            app:transXAnim="true"
+            android:src="@mipmap/im3"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+    </com.example.sober_philer.studyui.day24_animfram.ViewFramContent>
+
+</com.example.sober_philer.studyui.day24_animfram.ViewFramScroll>

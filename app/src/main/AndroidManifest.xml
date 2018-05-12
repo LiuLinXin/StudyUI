@@ -42,6 +42,10 @@
         <activity android:name=".day21_animator.Day21Activity"/>
         <activity android:name=".day21_animator.Day21MatieralDesign"/>
         <activity android:name=".day21_animator.Day21MatieralDesignTow"/>
+        <activity android:name=".day23_svg.Day23Activity"/>
+        <activity android:name=".day24_animfram.Day24ActivityAnimFram"/>
+        <activity android:name=".day26_touch.Day26ActivityViewOntouch"/>
+        <activity android:name=".day28_use_touch.Day28Activity"/>
     </application>
 
 </manifest>
