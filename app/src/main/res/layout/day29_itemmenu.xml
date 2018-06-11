@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.example.sober_philer.studyui.day29_scroller.ItemScroll.ViewItemMenu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#400f"
+        android:gravity="center_vertical"
+        android:paddingLeft="13dp"
+        android:text="那就这样吧" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:text="删除"
+        android:textColor="#f00" />
+
+</com.example.sober_philer.studyui.day29_scroller.ItemScroll.ViewItemMenu>
+

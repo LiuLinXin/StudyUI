@@ -39,6 +39,8 @@
         <activity android:name=".day19_behavior.ActivityDay19"/>
         <activity android:name=".day19_behavior.behavior_scroll.ActivityDay19Scroll"/>
         <activity android:name=".day20_propertyanimotion.Day20Activity"/>
+        <activity android:name=".day19_behavior.day19activity2.ActivityDay19_tow"/>
+        <activity android:name=".day28_myview.Day28Activity"/>
         <activity android:name=".day21_animator.Day21Activity"/>
         <activity android:name=".day21_animator.Day21MatieralDesign"/>
         <activity android:name=".day21_animator.Day21MatieralDesignTow"/>
@@ -46,6 +48,10 @@
         <activity android:name=".day24_animfram.Day24ActivityAnimFram"/>
         <activity android:name=".day26_touch.Day26ActivityViewOntouch"/>
         <activity android:name=".day28_use_touch.Day28Activity"/>
+        <activity android:name=".day29_scroller.Day29Activity"/>
+        <activity android:name=".day31_paint.Day31Activity"/>
+        <activity android:name=".day32_filter.Day32Activity"/>
+        <activity android:name=".day33_cavas1.ActivityCavas1"/>
     </application>
 
 </manifest>

@@ -24,11 +24,11 @@ public class Day28Activity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.day28_activity);
-        lvContent = findViewById(R.id.lvContent);
-        List<String> datas = new ArrayList<>();
-        for (int i=0;i<30;i++){
-            datas.add("data : "+i);
-        }
-        lvContent.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, datas));
+//        lvContent = findViewById(R.id.lvContent);
+//        List<String> datas = new ArrayList<>();
+//        for (int i=0;i<30;i++){
+//            datas.add("data : "+i);
+//        }
+//        lvContent.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, android.R.id.text1, datas));
     }
 }

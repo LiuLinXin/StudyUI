@@ -1,6 +1,7 @@
 package com.example.sober_philer.studyui.day28_use_touch;
 
 import android.content.Context;
+import android.support.v4.view.ViewPager;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.ScrollView;
@@ -16,7 +17,12 @@ public class ScrollViewCantouch extends ScrollView {
     }
 
     @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+        return super.dispatchTouchEvent(ev);
+    }
+
+    @Override
     public boolean onInterceptTouchEvent(MotionEvent ev) {
-        return false;
+        return super.onInterceptTouchEvent(ev);
     }
 }

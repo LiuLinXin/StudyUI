@@ -256,7 +256,67 @@
             android:layout_width="match_parent"
             android:layout_height="44dp"
             android:background="?attr/selectableItemBackground"
-            android:text="day26_touch1" />
+            android:text="day26_touchview" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day28_2"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="day28_listviewtouch" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day29"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="day29_myscrollqq" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day31"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="day31_paint" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day32"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="day32_filter" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day33"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="day33_cavas1" />
 
         <View
             android:layout_width="match_parent"

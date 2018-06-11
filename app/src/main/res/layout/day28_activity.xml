@@ -4,53 +4,31 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.example.sober_philer.studyui.day28_use_touch.ScrollViewCantouch
+    <com.example.sober_philer.studyui.day28_use_touch.ViewPagerMyView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
+        <TextView
+            android:text="自定义viewPager"
+            android:gravity="center"
+            android:background="#f0f"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+            android:layout_height="300dp" />
 
-            <ListView
-                android:id="@+id/lvContent"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"></ListView>
+        <TextView
+            android:text="自定义viewPager"
+            android:gravity="center"
+            android:background="#0ff"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:gravity="center"
-                android:text="askldjfkljsadfljsfad"/>
+        <TextView
+            android:text="自定义viewPager"
+            android:gravity="center"
+            android:background="#ff0"
+            android:layout_width="match_parent"
+            android:layout_height="500dp" />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:gravity="center"
-                android:text="askldjfkljsadfljsfad"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:gravity="center"
-                android:text="askldjfkljsadfljsfad"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:gravity="center"
-                android:text="askldjfkljsadfljsfad"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:gravity="center"
-                android:text="askldjfkljsadfljsfad"/>
-
-
-        </LinearLayout>
-
-    </com.example.sober_philer.studyui.day28_use_touch.ScrollViewCantouch>
+    </com.example.sober_philer.studyui.day28_use_touch.ViewPagerMyView>
 
 </LinearLayout>

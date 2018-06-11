@@ -20,6 +20,10 @@ import com.example.sober_philer.studyui.day23_svg.Day23Activity;
 import com.example.sober_philer.studyui.day24_animfram.Day24ActivityAnimFram;
 import com.example.sober_philer.studyui.day26_touch.Day26ActivityViewOntouch;
 import com.example.sober_philer.studyui.day28_use_touch.Day28Activity;
+import com.example.sober_philer.studyui.day29_scroller.Day29Activity;
+import com.example.sober_philer.studyui.day31_paint.Day31Activity;
+import com.example.sober_philer.studyui.day32_filter.Day32Activity;
+import com.example.sober_philer.studyui.day33_cavas1.ActivityCavas1;
 import com.example.sober_philer.studyui.day4_recyclerview_itemdecoration.Day4ActivityRecyclerViewDivider;
 import com.example.sober_philer.studyui.day5_recyclerview_headerfooter.ActivityDay5;
 import com.example.sober_philer.studyui.day6_recyclerview_animation.ActivityDay6RecyclerViewAnimation;
@@ -54,6 +58,11 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.day24).setOnClickListener(this);
         findViewById(R.id.day26).setOnClickListener(this);
         findViewById(R.id.day28).setOnClickListener(this);
+        findViewById(R.id.day28_2).setOnClickListener(this);
+        findViewById(R.id.day29).setOnClickListener(this);
+        findViewById(R.id.day31).setOnClickListener(this);
+        findViewById(R.id.day32).setOnClickListener(this);
+        findViewById(R.id.day33).setOnClickListener(this);
     }
 
     @Override
@@ -106,7 +115,17 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else if(id == R.id.day26){
             startActivity(new Intent(this, Day26ActivityViewOntouch.class));
         }else if(id == R.id.day28){
+            startActivity(new Intent(this, com.example.sober_philer.studyui.day28_myview.Day28Activity.class));
+        }else if(id == R.id.day28_2){
             startActivity(new Intent(this, Day28Activity.class));
+        }else if(id == R.id.day29){
+            startActivity(new Intent(this, Day29Activity.class));
+        }else if(id == R.id.day31){
+            startActivity(new Intent(this, Day31Activity.class));
+        }else if(id == R.id.day32){
+            startActivity(new Intent(this, Day32Activity.class));
+        }else if(id == R.id.day33){
+            startActivity(new Intent(this, ActivityCavas1.class));
         }
     }
 }

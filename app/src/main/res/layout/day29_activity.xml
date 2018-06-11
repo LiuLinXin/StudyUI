@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.sober_philer.studyui.day29_scroller.ScrollviewMy xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_bg">
+
+    <com.example.sober_philer.studyui.day29_scroller.MyViewLinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <include layout="@layout/day29_menu" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/qq" />
+
+    </com.example.sober_philer.studyui.day29_scroller.MyViewLinearLayout>
+
+</com.example.sober_philer.studyui.day29_scroller.ScrollviewMy>
