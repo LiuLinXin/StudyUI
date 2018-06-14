@@ -12,8 +12,10 @@ public class ActivityCavas1 extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        ViewCanvas viewCanvas = new ViewCanvas(this);
+//        ViewCanvas viewCanvas = new ViewCanvas(this);
 //        ViewDidi viewCanvas = new ViewDidi(this);
+//        ViewReveal viewCanvas = new ViewReveal(this);
+        ScrollViewReveal viewCanvas = new ScrollViewReveal(this);
         setContentView(viewCanvas);
     }
 }
