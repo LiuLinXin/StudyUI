@@ -23,7 +23,7 @@ import com.example.sober_philer.studyui.day28_use_touch.Day28Activity;
 import com.example.sober_philer.studyui.day29_scroller.Day29Activity;
 import com.example.sober_philer.studyui.day31_paint.Day31Activity;
 import com.example.sober_philer.studyui.day32_filter.Day32Activity;
-import com.example.sober_philer.studyui.day33_cavas1.ActivityCavas1;
+import com.example.sober_philer.studyui.day33_cavas1.ActivityDay33;
 import com.example.sober_philer.studyui.day4_recyclerview_itemdecoration.Day4ActivityRecyclerViewDivider;
 import com.example.sober_philer.studyui.day5_recyclerview_headerfooter.ActivityDay5;
 import com.example.sober_philer.studyui.day6_recyclerview_animation.ActivityDay6RecyclerViewAnimation;
@@ -125,7 +125,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         }else if(id == R.id.day32){
             startActivity(new Intent(this, Day32Activity.class));
         }else if(id == R.id.day33){
-            startActivity(new Intent(this, ActivityCavas1.class));
+            startActivity(new Intent(this, ActivityDay33.class));
         }
     }
 }

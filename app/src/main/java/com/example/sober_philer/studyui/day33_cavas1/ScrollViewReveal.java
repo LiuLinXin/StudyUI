@@ -3,6 +3,7 @@ package com.example.sober_philer.studyui.day33_cavas1;
 import android.app.Fragment;
 import android.content.Context;
 import android.graphics.Color;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
@@ -47,6 +48,12 @@ public class ScrollViewReveal extends HorizontalScrollView{
         mipmaps.add(R.mipmap.im5);
         mipmaps.add(R.mipmap.im6);
         mipmaps.add(R.mipmap.im7);
+    }
+
+
+    public ScrollViewReveal(Context context, AttributeSet attrs) {
+        super(context, attrs);
+        init();
     }
 
     public ScrollViewReveal(Context context) {
