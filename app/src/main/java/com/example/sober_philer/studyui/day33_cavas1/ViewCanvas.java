@@ -80,6 +80,7 @@ public class ViewCanvas extends View {
 
 //        canvas.drawPath(path, paint);
 
+
         RectF rectF = new RectF(300, 300, 1000,1000);
         Path path = new Path();
         path.addOval(rectF, Path.Direction.CCW);
