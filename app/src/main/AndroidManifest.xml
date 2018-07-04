@@ -52,6 +52,10 @@
         <activity android:name=".day31_paint.Day31Activity"/>
         <activity android:name=".day32_filter.Day32Activity"/>
         <activity android:name=".day33_cavas1.ActivityDay33"/>
+        <activity android:name=".day34_cavas2.ActivityCavas2"/>
+        <activity android:name=".day35_path.Day35Activity"/>
+        <activity android:name=".day36_pathmeasure.Day36Activity"/>
+        <activity android:name=".day37_ui_draw.Day37Activity"/>
     </application>
 
 </manifest>

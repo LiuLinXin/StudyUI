@@ -322,5 +322,53 @@
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
             android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day34"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="day34_cavas2" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day35"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="day35_path" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day36"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="day36_pathmeasure" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/day37"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="?attr/selectableItemBackground"
+            android:text="day37_setcontentview" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#ccc" />
     </LinearLayout>
 </ScrollView>
