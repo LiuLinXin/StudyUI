@@ -29,6 +29,7 @@ import com.example.sober_philer.studyui.day34_cavas2.ActivityCavas2;
 import com.example.sober_philer.studyui.day35_path.Day35Activity;
 import com.example.sober_philer.studyui.day36_pathmeasure.Day36Activity;
 import com.example.sober_philer.studyui.day37_ui_draw.Day37Activity;
+import com.example.sober_philer.studyui.day38_viewdraw.Day38Activity;
 import com.example.sober_philer.studyui.day4_recyclerview_itemdecoration.Day4ActivityRecyclerViewDivider;
 import com.example.sober_philer.studyui.day5_recyclerview_headerfooter.ActivityDay5;
 import com.example.sober_philer.studyui.day6_recyclerview_animation.ActivityDay6RecyclerViewAnimation;
@@ -72,6 +73,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.day35).setOnClickListener(this);
         findViewById(R.id.day36).setOnClickListener(this);
         findViewById(R.id.day37).setOnClickListener(this);
+        findViewById(R.id.day38).setOnClickListener(this);
     }
 
     @Override
@@ -143,6 +145,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(new Intent(this, Day36Activity.class));
         }else if(id == R.id.day37){
             startActivity(new Intent(this, Day37Activity.class));
+        }else if(id == R.id.day38){
+            startActivity(new Intent(this, Day38Activity.class));
         }
     }
 }

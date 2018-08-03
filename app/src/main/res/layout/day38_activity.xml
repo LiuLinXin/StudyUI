@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.sober_philer.studyui.day38_viewdraw.ViewGroupMy
+        android:layout_width="wrap_content"
+        android:background="#11000000"
+        android:layout_height="wrap_content">
+
+        <View
+            android:layout_width="100dp"
+            android:background="#f0f"
+            android:layout_height="100dp"/>
+
+
+        <View
+            android:layout_width="200dp"
+            android:background="#0ff"
+            android:layout_height="100dp"/>
+
+
+        <View
+            android:layout_width="100dp"
+            android:background="#ff0"
+            android:layout_height="100dp"/>
+
+
+        <View
+            android:layout_width="150dp"
+            android:background="#00f"
+            android:layout_height="80dp"/>
+
+    </com.example.sober_philer.studyui.day38_viewdraw.ViewGroupMy>
+
+</RelativeLayout>
