@@ -4,5 +4,7 @@
 .idea/StudyUI.iml
 .idea/vcs.xml
 .idea/workspace.xml
+.idea/
+.git/
 build/
 local.properties

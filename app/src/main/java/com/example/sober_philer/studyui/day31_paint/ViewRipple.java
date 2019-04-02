@@ -21,8 +21,8 @@ public class ViewRipple extends View {
     Paint paint = new Paint();
     RadialGradient radialGradient;
     float downX, downY;
-    int[] color = new int[]{0xff990099, 0xff990099};
-    float[] positions = new float[]{0, 1};
+    int[] color = new int[]{0xffffffff, 0xff990099, 0xffffffff};
+    float[] positions = new float[]{0, 0.5f, 1};
 
     public ViewRipple(Context context, @Nullable AttributeSet attrs) {
         super(context, attrs);

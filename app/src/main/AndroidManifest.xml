@@ -10,11 +10,11 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.MAIN"/>-->
 
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+                <!--<category android:name="android.intent.category.LAUNCHER"/>-->
+            <!--</intent-filter>-->
         </activity>
         <activity android:name=".day4_recyclerview_itemdecoration.Day4ActivityRecyclerViewDivider">
         </activity>
@@ -49,7 +49,13 @@
         <activity android:name=".day26_touch.Day26ActivityViewOntouch"/>
         <activity android:name=".day28_use_touch.Day28Activity"/>
         <activity android:name=".day29_scroller.Day29Activity"/>
-        <activity android:name=".day31_paint.Day31Activity"/>
+        <activity android:name=".day31_paint.Day31Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
         <activity android:name=".day32_filter.Day32Activity"/>
         <activity android:name=".day33_cavas1.ActivityDay33"/>
         <activity android:name=".day34_cavas2.ActivityCavas2"/>
